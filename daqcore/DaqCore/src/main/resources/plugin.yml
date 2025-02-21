@@ -1,0 +1,14 @@
+name: DaqCore
+version: '1.0-SNAPSHOT'
+main: org.daqcore.daqCore.DaqCore
+api-version: '1.21'
+authors: [ Daqzy ]
+description: A minecraft plugin.
+
+commands:
+  core:
+    description: Displays DAQ-CORE info
+    usage: /core
+  eventcore:
+    description: Displays DAQ-CORE event info
+    usage: /eventcore
